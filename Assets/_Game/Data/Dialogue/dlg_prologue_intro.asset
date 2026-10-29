@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c0d6d2402f9ae740a85ce62a7453bee, type: 3}
+  m_Name: dlg_prologue_intro
+  m_EditorClassIdentifier: Assembly-CSharp::ExitClause.Story.DialogueSequence
+  id: dlg_prologue_intro
+  lines:
+  - speaker: Vale
+    text: Last one, Adrian. Viktor Sorel, top floor of the Hotel Zlata. Do it clean and you never hear my voice again.
+    duration: 7.44
+    voice: {fileID: 0}
+  - speaker: Adrian
+    text: Promises, promises.
+    duration: 2.545
+    voice: {fileID: 0}
+  - speaker: Vale
+    text: Alley's on your left. Shift to move quick, C to keep low. Courtyard guard is looking the wrong way.
+    duration: 6.945
+    voice: {fileID: 0}

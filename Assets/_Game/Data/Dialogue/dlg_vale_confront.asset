@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c0d6d2402f9ae740a85ce62a7453bee, type: 3}
+  m_Name: dlg_vale_confront
+  m_EditorClassIdentifier: Assembly-CSharp::ExitClause.Story.DialogueSequence
+  id: dlg_vale_confront
+  lines:
+  - speaker: Vale
+    text: You were always the best of them, Adrian. That's why your pension was so large.
+    duration: 5.845
+    voice: {fileID: 0}
+  - speaker: Adrian
+    text: How many, Marcus?
+    duration: 2.5
+    voice: {fileID: 0}
+  - speaker: Vale
+    text: Fourteen. Fifteen, after tonight. Nobody retires. It was in the contract. You just never read the exit clause.
+    duration: 7.55
+    voice: {fileID: 0}

@@ -1,0 +1,9 @@
+Third-party assets used in Exit Clause
+
+Poly Haven (https://polyhaven.com), CC0 1.0 (public domain), 2K JPG diffuse + OpenGL normal maps:
+- red_brick_03            -> Textures/Brick
+- cobblestone_floor_08    -> Textures/Cobblestone
+- plastered_wall_04       -> Textures/Plaster
+- asphalt_02              -> Textures/Asphalt, Textures/WetAsphalt
+- concrete_wall_008       -> Textures/Concrete, Textures/ConcreteDark
+- castle_wall_slates      -> Textures/Trim

@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c0d6d2402f9ae740a85ce62a7453bee, type: 3}
+  m_Name: dlg_prologue_outro
+  m_EditorClassIdentifier: Assembly-CSharp::ExitClause.Story.DialogueSequence
+  id: dlg_prologue_outro
+  lines:
+  - speaker: Vale
+    text: Twenty-two years, Adrian. Not a single loose end.
+    duration: 4.195
+    voice: {fileID: 0}
+  - speaker: Adrian
+    text: Don't make it a speech.
+    duration: 2.765
+    voice: {fileID: 0}
+  - speaker: Vale
+    text: Keys to Villa Serena. The pension clears Friday. Go grow tomatoes, or whatever retired men do.
+    duration: 6.67
+    voice: {fileID: 0}
+  - speaker: Adrian
+    text: And the agency just lets me go?
+    duration: 3.205
+    voice: {fileID: 0}
+  - speaker: Vale
+    text: That's what the exit clause is for. Enjoy the sun.
+    duration: 4.25
+    voice: {fileID: 0}

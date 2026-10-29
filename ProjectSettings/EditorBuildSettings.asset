@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/_Game/Scenes/MainMenu.unity
+    guid: a1160416a0e488046abf22a4e828248d
+  - enabled: 1
+    path: Assets/_Game/Scenes/Prologue_Prague.unity
+    guid: 640035b05a73bcc43abf6c9a97e982dd
+  - enabled: 1
+    path: Assets/_Game/Scenes/Act0_Riviera.unity
+    guid: 9bfb8470b4c59014f813fc29b7feb365
+  - enabled: 1
+    path: Assets/_Game/Scenes/Act1_Mansion.unity
+    guid: 59763d75ef4746a45a6f5d7471529c3b
+  - enabled: 1
+    path: Assets/_Game/Scenes/Act1_CoastRoad.unity
+    guid: 66f7f5e48ce78f34f8045b0e968ae970
+  - enabled: 1
+    path: Assets/_Game/Scenes/Interlude_Harbor.unity
+    guid: fe340b370de570340bdfe95f05c43e82
+  - enabled: 1
+    path: Assets/_Game/Scenes/Act2_Safehouse.unity
+    guid: 47a4135c480af674fa0ed3e3ae2b9644
+  - enabled: 1
+    path: Assets/_Game/Scenes/Act2_Alps.unity
+    guid: 732a70fc69a49cb4c853d307ccf0c9a9
+  - enabled: 1
+    path: Assets/_Game/Scenes/Act2_Marseille.unity
+    guid: 5e9d617de2565064f97d9ee31d239e34
+  - enabled: 1
+    path: Assets/_Game/Scenes/Act2_Berlin.unity
+    guid: 2f97654f8cbb4ef48bd77b54e63aec5d
+  - enabled: 1
+    path: Assets/_Game/Scenes/Act3_Zurich.unity
+    guid: 1f590f867c364684cb855d50d1c19a05
+  - enabled: 1
+    path: Assets/_Game/Scenes/Ending.unity
+    guid: 9bfb3e05f40193e448538c4f4cb8dfb7
+  m_configObjects: {}

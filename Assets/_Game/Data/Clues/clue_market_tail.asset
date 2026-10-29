@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0b0aa7ca3ca3e7409e0b82744f3b398, type: 3}
+  m_Name: clue_market_tail
+  m_EditorClassIdentifier: Assembly-CSharp::ExitClause.Story.ClueDefinition
+  id: clue_market_tail
+  title: The man in the grey jacket
+  description: Produce aisle. Wine aisle. Leaning on a car in the parking lot. Never buys anything.
+  isRedHerring: 0
+  trueSuspectId: agency
+  observationsRequired: 3
+  requiresSeparateDays: 0
+  evidenceValue: 0
+  objectiveId: market_tail

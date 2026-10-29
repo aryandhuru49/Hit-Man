@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50e2b1025e0ba5e4c8950eb2b3174832, type: 3}
+  m_Name: act1_ambush
+  m_EditorClassIdentifier: Assembly-CSharp::ExitClause.Story.MissionDefinition
+  id: act1_ambush
+  title: The Ambush
+  subtitle: Dinner is interrupted.
+  briefing: 
+  sceneName: Act1_Mansion
+  objectives:
+  - id: kill_team
+    text: Kill the two agents who broke in
+    requiredCount: 2
+    optional: 0
+    hidden: 0
+    rewardCash: 0
+    setFlagsOnActivate: []
+    setFlagsOnComplete: []
+  - id: identify
+    text: Check the dead agent's face
+    requiredCount: 1
+    optional: 0
+    hidden: 0
+    rewardCash: 0
+    setFlagsOnActivate: []
+    setFlagsOnComplete: []
+  - id: phone_kessler
+    text: Take Kessler's phone
+    requiredCount: 1
+    optional: 0
+    hidden: 0
+    rewardCash: 0
+    setFlagsOnActivate: []
+    setFlagsOnComplete: []
+  - id: garage
+    text: Get to the garage and take the car
+    requiredCount: 1
+    optional: 0
+    hidden: 0
+    rewardCash: 0
+    setFlagsOnActivate: []
+    setFlagsOnComplete: []
+  rewardCash: 0
+  setFlagsOnComplete:
+  - ambush_survived
+  nextScene: Act1_CoastRoad
+  nextSpawnPoint: 

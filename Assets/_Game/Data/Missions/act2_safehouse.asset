@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50e2b1025e0ba5e4c8950eb2b3174832, type: 3}
+  m_Name: act2_safehouse
+  m_EditorClassIdentifier: Assembly-CSharp::ExitClause.Story.MissionDefinition
+  id: act2_safehouse
+  title: Turning Their Tools
+  subtitle: Genoa safehouse
+  briefing: 
+  sceneName: Act2_Safehouse
+  objectives:
+  - id: crack_elias
+    text: Crack Elias's phone (smudge marks + feedback)
+    requiredCount: 1
+    optional: 0
+    hidden: 0
+    rewardCash: 0
+    setFlagsOnActivate: []
+    setFlagsOnComplete: []
+  - id: decrypt_elias
+    text: Decrypt Elias's messages (find the cipher shift)
+    requiredCount: 1
+    optional: 0
+    hidden: 0
+    rewardCash: 0
+    setFlagsOnActivate: []
+    setFlagsOnComplete: []
+  - id: crack_kessler
+    text: Crack Kessler's phone
+    requiredCount: 1
+    optional: 0
+    hidden: 0
+    rewardCash: 0
+    setFlagsOnActivate: []
+    setFlagsOnComplete: []
+  - id: decrypt_kessler
+    text: Decrypt Kessler's messages
+    requiredCount: 1
+    optional: 0
+    hidden: 0
+    rewardCash: 0
+    setFlagsOnActivate: []
+    setFlagsOnComplete:
+    - devices_cracked
+  - id: spoof
+    text: Send Hale a fake relocation order (Kessler's phone, Orders tab)
+    requiredCount: 1
+    optional: 1
+    hidden: 0
+    rewardCash: 0
+    setFlagsOnActivate: []
+    setFlagsOnComplete: []
+  - id: plant_intel
+    text: Plant fake intel about your location (Elias's phone, Orders tab)
+    requiredCount: 1
+    optional: 1
+    hidden: 0
+    rewardCash: 0
+    setFlagsOnActivate: []
+    setFlagsOnComplete: []
+  - id: travel
+    text: Choose your next target on the map
+    requiredCount: 1
+    optional: 0
+    hidden: 0
+    rewardCash: 0
+    setFlagsOnActivate: []
+    setFlagsOnComplete: []
+  rewardCash: 0
+  setFlagsOnComplete: []
+  nextScene: 
+  nextSpawnPoint: 

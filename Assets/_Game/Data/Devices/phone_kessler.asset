@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e3e5a4638874174a9c75829f2cb6ff0, type: 3}
+  m_Name: phone_kessler
+  m_EditorClassIdentifier: Assembly-CSharp::ExitClause.Hacking.DeviceDefinition
+  id: phone_kessler
+  deviceLabel: Agency handset (Kessler)
+  ownerName: Jonas Kessler
+  pin: 4321
+  attemptsBeforeLockout: 5
+  lockoutSeconds: 15
+  messages:
+  - from: HALE
+    plainText: SET UP ON WEISSGRAT NORTH RIDGE. TELL ME THE MOMENT KADE MOVES.
+    shift: 5
+    revealsFlag: loc_alps
+    logsClueId: 
+    evidenceValue: 0
+  - from: BRENNER
+    plainText: 'MARSEILLE: ROUX WORKS THE DOCK MARKET. BERLIN NODE IS THE OLD KRAFTWERK, RELAY PIN 0000 UNTIL I FIX IT.'
+    shift: 9
+    revealsFlag: loc_marseille_berlin
+    logsClueId: 
+    evidenceValue: 0
+  orders:
+  - id: misdirect_hale
+    recipient: HALE (sniper)
+    description: Relocate overwatch
+    locations:
+    - Weissgrat North Ridge
+    - Rotstock East Col
+    correctLocation: Weissgrat North Ridge
+    authCode: KX-7741
+    setFlag: sniper_misdirected
+    objectiveId: spoof
+  flagOnUnlock: 
+  objectiveOnUnlock: crack_kessler
+  objectiveOnAllMessages: decrypt_kessler
+  disableCameraGroupOnUnlock: 

@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6430d6e9bea1700439b2b025ba2b8c6b, type: 3}
+  m_Name: choice_luca
+  m_EditorClassIdentifier: Assembly-CSharp::ExitClause.Story.ChoiceDefinition
+  id: choice_luca
+  prompt: The watcher is Luca Brandt. He only wanted to see the man who killed his father.
+  timeLimit: 0
+  defaultOption: 0
+  options:
+  - id: hear_him_out
+    label: Hear him out
+    consequenceHint: He may remember the kindness.
+    setFlags:
+    - luca_ally
+    clearFlags: []
+    requiresFlag: 
+    requiresMissingFlag: 
+    progressObjective: confront_luca
+  - id: warn_off
+    label: Warn him off
+    consequenceHint: He leaves. You'll never know what he would have done.
+    setFlags: []
+    clearFlags: []
+    requiresFlag: 
+    requiresMissingFlag: 
+    progressObjective: confront_luca

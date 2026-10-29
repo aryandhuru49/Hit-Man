@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7e1c4d9fa03a64488b67ed8dca7fe76, type: 3}
+  m_Name: CameraSettings
+  m_EditorClassIdentifier: Assembly-CSharp::ExitClause.CameraSystem.CameraSettings
+  pivotHeight: 1.4
+  distance: 5
+  verticalArm: 0.35
+  shoulderOffset: {x: 0, y: 0, z: 0}
+  defaultPitch: 14
+  minPitch: -25
+  maxPitch: 65
+  followDamping: {x: 0.25, y: 0.4, z: 0.3}
+  fieldOfView: 60
+  sensitivityX: 3
+  sensitivityY: 2.2
+  recenterDelay: 1.5
+  movingRecenterDelay: 0.4
+  recenterSmoothTime: 0.45
+  pitchReturnSpeed: 25
+  aimPivotHeight: 1.55
+  aimDistance: 1.8
+  aimVerticalArm: 0.1
+  aimShoulderOffset: {x: 0.6, y: 0, z: 0}
+  aimDamping: {x: 0.05, y: 0.05, z: 0.05}
+  aimFieldOfView: 45
+  aimSensitivityScale: 0.6
+  lockOnRange: 35
+  lockOnMaxAngle: 45
+  lockOnTurnSpeed: 10
+  vehiclePivotHeight: 1.2
+  vehicleDistance: 8
+  vehicleVerticalArm: 1.9
+  vehicleDefaultPitch: 9
+  vehicleDamping: {x: 0.4, y: 0.5, z: 0.7}
+  vehicleFieldOfView: 60
+  vehicleMaxFieldOfView: 74
+  speedZoomStart: 15
+  speedZoomFull: 45
+  speedZoomExtraDistance: 4
+  vehicleYawSmoothTime: 0.35
+  topDownHeight: 32
+  topDownBack: 9
+  topDownFieldOfView: 50
+  topDownFollowSmoothing: 4
+  collisionRadius: 0.3
+  dampingIntoCollision: 0.05
+  dampingFromCollision: 0.6
+  blendTime: 0.35

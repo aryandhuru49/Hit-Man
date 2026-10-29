@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b7cf6fd1b2c90b49ad4677f3a8bfd35, type: 3}
+  m_Name: ending_expose
+  m_EditorClassIdentifier: Assembly-CSharp::ExitClause.Story.EndingDefinition
+  id: ending_expose
+  title: Exposed
+  epilogue: 'The ledger reaches three newsrooms and a Swiss prosecutor before dawn. Helvetia Private Trust''s accounts are frozen by noon.
+
+
+    Fourteen names, fourteen families, fourteen pensions that never reached anyone. Their stories run for weeks.
+
+
+    Adrian Kade testifies under a name that isn''t his. For the first time in twenty-two years, he tells the truth for a living.'
+  lovedOneSavedLine: Sofia sits in the gallery on the last day of the hearings. Afterwards, she asks him to start at the beginning. He does.
+  lovedOneLostLine: Sofia's name is not in the ledger. It should not have been anywhere near it. He reads it aloud anyway, into the record.
+  informantLine: Nadia Roux turns state's witness. Her testimony is the one that makes the directors stop smiling.
+  minEvidence: 8
+  minRageUses: 0
+  requiresNoSpare: 0

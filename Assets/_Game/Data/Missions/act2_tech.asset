@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50e2b1025e0ba5e4c8950eb2b3174832, type: 3}
+  m_Name: act2_tech
+  m_EditorClassIdentifier: Assembly-CSharp::ExitClause.Story.MissionDefinition
+  id: act2_tech
+  title: The Tech Specialist
+  subtitle: Berlin
+  briefing: 
+  sceneName: Act2_Berlin
+  objectives:
+  - id: infiltrate
+    text: Get into the old Kraftwerk without being spotted
+    requiredCount: 1
+    optional: 0
+    hidden: 0
+    rewardCash: 0
+    setFlagsOnActivate: []
+    setFlagsOnComplete: []
+  - id: cameras
+    text: Hack the CCTV relay to blind the cameras
+    requiredCount: 1
+    optional: 1
+    hidden: 0
+    rewardCash: 0
+    setFlagsOnActivate: []
+    setFlagsOnComplete: []
+  - id: server_room
+    text: Reach the server hall
+    requiredCount: 1
+    optional: 0
+    hidden: 0
+    rewardCash: 0
+    setFlagsOnActivate: []
+    setFlagsOnComplete: []
+  - id: kill_brenner
+    text: Take down Konrad Brenner
+    requiredCount: 1
+    optional: 0
+    hidden: 0
+    rewardCash: 0
+    setFlagsOnActivate: []
+    setFlagsOnComplete: []
+  - id: laptop
+    text: Crack Brenner's laptop
+    requiredCount: 1
+    optional: 0
+    hidden: 0
+    rewardCash: 0
+    setFlagsOnActivate: []
+    setFlagsOnComplete: []
+  rewardCash: 2000
+  setFlagsOnComplete:
+  - tech_defeated
+  nextScene: Act2_Safehouse
+  nextSpawnPoint: 

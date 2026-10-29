@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c0d6d2402f9ae740a85ce62a7453bee, type: 3}
+  m_Name: dlg_luca
+  m_EditorClassIdentifier: Assembly-CSharp::ExitClause.Story.DialogueSequence
+  id: dlg_luca
+  lines:
+  - speaker: Luca
+    text: You don't remember me. Vienna, 2015. Dieter Brandt was my father.
+    duration: 5.075
+    voice: {fileID: 0}
+  - speaker: Adrian
+    text: ...
+    duration: 2.5
+    voice: {fileID: 0}
+  - speaker: Luca
+    text: I didn't come to kill you. I just wanted to see what kind of man does that and then buys lemons at the market.
+    duration: 7.55
+    voice: {fileID: 0}

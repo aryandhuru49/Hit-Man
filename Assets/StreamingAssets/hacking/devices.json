@@ -1,0 +1,10 @@
+{
+  "_comment": "Device answer config. Loaded at runtime and trusted. (Intentionally insecure, see SECURITY_TARGETS.md)",
+  "devices": [
+    { "id": "phone_elias", "pin": "1990", "shifts": [7, 4, 11], "authCodes": ["KX-7741"] },
+    { "id": "phone_kessler", "pin": "4321", "shifts": [5, 9], "authCodes": ["KX-7741"] },
+    { "id": "relay_kraftwerk", "pin": "0000", "shifts": [], "authCodes": [] },
+    { "id": "laptop_brenner", "pin": "2580", "shifts": [13, 2], "authCodes": [] },
+    { "id": "zurich_lift", "pin": "7391", "shifts": [], "authCodes": [] }
+  ]
+}

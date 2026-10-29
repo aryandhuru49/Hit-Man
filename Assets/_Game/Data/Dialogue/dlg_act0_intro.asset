@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c0d6d2402f9ae740a85ce62a7453bee, type: 3}
+  m_Name: dlg_act0_intro
+  m_EditorClassIdentifier: Assembly-CSharp::ExitClause.Story.DialogueSequence
+  id: dlg_act0_intro
+  lines:
+  - speaker: Adrian
+    text: Villa Serena. Sea view, lemon trees, and a pension with more zeros than I ever earned honestly.
+    duration: 6.725
+    voice: {fileID: 0}
+  - speaker: Adrian
+    text: Sofia runs the bookshop by the harbour. She thinks I sold insurance.
+    duration: 5.24
+    voice: {fileID: 0}
+  - speaker: Adrian
+    text: Normal life. Groceries. Coffee. Sleep. How hard can it be?
+    duration: 4.69
+    voice: {fileID: 0}

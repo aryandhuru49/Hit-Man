@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e3e5a4638874174a9c75829f2cb6ff0, type: 3}
+  m_Name: phone_elias
+  m_EditorClassIdentifier: Assembly-CSharp::ExitClause.Hacking.DeviceDefinition
+  id: phone_elias
+  deviceLabel: Agency handset (E. Ward)
+  ownerName: Elias Ward
+  pin: 1990
+  attemptsBeforeLockout: 5
+  lockoutSeconds: 15
+  messages:
+  - from: VALE
+    plainText: 'TEAM SIX: KADE RETIRES FRIDAY. PENSION 2.4M AND VILLA SERENA REVERT ON CONFIRMATION. NO WITNESSES.'
+    shift: 7
+    revealsFlag: 
+    logsClueId: clue_kill_order
+    evidenceValue: 1
+  - from: BRENNER
+    plainText: ORDER AUTH CODES ROTATE WEEKLY. CURRENT CODE KX-7741. ROUX STILL ON THE NEIGHBOUR COVER.
+    shift: 4
+    revealsFlag: knows_auth_code
+    logsClueId: 
+    evidenceValue: 0
+  - from: ROUX
+    plainText: I DID NOT SIGN UP TO KILL OUR OWN. WHO SIGNS OFF ON THIS. AM I NEXT
+    shift: 11
+    revealsFlag: roux_hesitant
+    logsClueId: 
+    evidenceValue: 0
+  orders:
+  - id: plant_intel
+    recipient: VALE (handler)
+    description: 'Status report: where is Kade hiding?'
+    locations:
+    - Riviera
+    - Lisbon
+    - Tangier
+    correctLocation: Riviera
+    authCode: KX-7741
+    setFlag: fake_intel_planted
+    objectiveId: plant_intel
+  flagOnUnlock: 
+  objectiveOnUnlock: crack_elias
+  objectiveOnAllMessages: decrypt_elias
+  disableCameraGroupOnUnlock: 

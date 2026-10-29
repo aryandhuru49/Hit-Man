@@ -1,0 +1,144 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50e2b1025e0ba5e4c8950eb2b3174832, type: 3}
+  m_Name: act0_normal_life
+  m_EditorClassIdentifier: Assembly-CSharp::ExitClause.Story.MissionDefinition
+  id: act0_normal_life
+  title: Normal Life
+  subtitle: Villa Serena, the Italian Riviera
+  briefing: 
+  sceneName: Act0_Riviera
+  objectives:
+  - id: pension
+    text: Check your pension on the villa laptop
+    requiredCount: 1
+    optional: 0
+    hidden: 0
+    rewardCash: 0
+    setFlagsOnActivate: []
+    setFlagsOnComplete: []
+  - id: market
+    text: Buy groceries at the market
+    requiredCount: 1
+    optional: 0
+    hidden: 0
+    rewardCash: 0
+    setFlagsOnActivate: []
+    setFlagsOnComplete: []
+  - id: market_tail
+    text: 'The man in the grey jacket: observe him in both aisles and the parking lot (E)'
+    requiredCount: 1
+    optional: 0
+    hidden: 0
+    rewardCash: 0
+    setFlagsOnActivate: []
+    setFlagsOnComplete: []
+  - id: sleep_1
+    text: Go home and sleep
+    requiredCount: 1
+    optional: 0
+    hidden: 0
+    rewardCash: 0
+    setFlagsOnActivate: []
+    setFlagsOnComplete: []
+  - id: jog
+    text: 'Morning jog: reach the three markers on the coast road'
+    requiredCount: 3
+    optional: 0
+    hidden: 0
+    rewardCash: 0
+    setFlagsOnActivate: []
+    setFlagsOnComplete: []
+  - id: tinted_car
+    text: Note the black sedan on the coast road on three different days
+    requiredCount: 1
+    optional: 1
+    hidden: 0
+    rewardCash: 0
+    setFlagsOnActivate: []
+    setFlagsOnComplete: []
+  - id: sleep_2
+    text: Go home and sleep
+    requiredCount: 1
+    optional: 0
+    hidden: 0
+    rewardCash: 0
+    setFlagsOnActivate: []
+    setFlagsOnComplete: []
+  - id: coffee
+    text: Meet Sofia at the cafe
+    requiredCount: 1
+    optional: 0
+    hidden: 0
+    rewardCash: 0
+    setFlagsOnActivate: []
+    setFlagsOnComplete: []
+  - id: cafe_watcher
+    text: Observe the man at the window (E)
+    requiredCount: 1
+    optional: 0
+    hidden: 0
+    rewardCash: 0
+    setFlagsOnActivate: []
+    setFlagsOnComplete: []
+  - id: confront_luca
+    text: Talk to the man at the window
+    requiredCount: 1
+    optional: 0
+    hidden: 0
+    rewardCash: 0
+    setFlagsOnActivate: []
+    setFlagsOnComplete: []
+  - id: sleep_3
+    text: Go home and sleep
+    requiredCount: 1
+    optional: 0
+    hidden: 0
+    rewardCash: 0
+    setFlagsOnActivate: []
+    setFlagsOnComplete: []
+  - id: neighbor
+    text: Say hello to the new neighbour
+    requiredCount: 1
+    optional: 0
+    hidden: 0
+    rewardCash: 0
+    setFlagsOnActivate: []
+    setFlagsOnComplete: []
+  - id: mail
+    text: Check the mailbox
+    requiredCount: 1
+    optional: 0
+    hidden: 0
+    rewardCash: 0
+    setFlagsOnActivate: []
+    setFlagsOnComplete: []
+  - id: pin_board
+    text: Pin your observations on the suspect board (J)
+    requiredCount: 3
+    optional: 0
+    hidden: 0
+    rewardCash: 0
+    setFlagsOnActivate: []
+    setFlagsOnComplete: []
+  - id: dinner
+    text: Dinner with Sofia at the villa
+    requiredCount: 1
+    optional: 0
+    hidden: 0
+    rewardCash: 0
+    setFlagsOnActivate: []
+    setFlagsOnComplete: []
+  rewardCash: 0
+  setFlagsOnComplete: []
+  nextScene: Act1_Mansion
+  nextSpawnPoint: 

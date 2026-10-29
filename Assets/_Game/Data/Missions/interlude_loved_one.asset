@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50e2b1025e0ba5e4c8950eb2b3174832, type: 3}
+  m_Name: interlude_loved_one
+  m_EditorClassIdentifier: Assembly-CSharp::ExitClause.Story.MissionDefinition
+  id: interlude_loved_one
+  title: The Loved One
+  subtitle: Pier nine. Come alone.
+  briefing: 
+  sceneName: Interlude_Harbor
+  objectives:
+  - id: reach_harbor
+    text: Get to pier nine
+    requiredCount: 1
+    optional: 0
+    hidden: 0
+    rewardCash: 0
+    setFlagsOnActivate: []
+    setFlagsOnComplete: []
+  - id: decide
+    text: Decide
+    requiredCount: 1
+    optional: 0
+    hidden: 0
+    rewardCash: 0
+    setFlagsOnActivate: []
+    setFlagsOnComplete: []
+  rewardCash: 0
+  setFlagsOnComplete: []
+  nextScene: 
+  nextSpawnPoint: 

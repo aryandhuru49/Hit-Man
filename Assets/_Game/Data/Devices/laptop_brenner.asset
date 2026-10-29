@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e3e5a4638874174a9c75829f2cb6ff0, type: 3}
+  m_Name: laptop_brenner
+  m_EditorClassIdentifier: Assembly-CSharp::ExitClause.Hacking.DeviceDefinition
+  id: laptop_brenner
+  deviceLabel: Brenner's laptop
+  ownerName: Konrad Brenner
+  pin: 2580
+  attemptsBeforeLockout: 5
+  lockoutSeconds: 15
+  messages:
+  - from: VALE
+    plainText: HELVETIA PRIVATE TRUST, ZURICH. EXECUTIVE LIFT PANEL CODE 7391. BRING THE LEDGER UPDATE.
+    shift: 13
+    revealsFlag: knows_lift_code
+    logsClueId: 
+    evidenceValue: 1
+  - from: LEDGER
+    plainText: 'RETIRED ASSETS CLOSED: 14. PENSIONS RECOVERED: 31.6M. PROPERTIES SEIZED: 9. NEXT: KADE.'
+    shift: 2
+    revealsFlag: 
+    logsClueId: 
+    evidenceValue: 1
+  orders: []
+  flagOnUnlock: agency_network_access
+  objectiveOnUnlock: laptop
+  objectiveOnAllMessages: 
+  disableCameraGroupOnUnlock: 
